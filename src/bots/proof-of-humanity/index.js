@@ -4,6 +4,7 @@ const _proofOfHumanity = require('../../contracts/proof-of-humanity.json')
 const executeRemoval = require('./execute-removals')
 const processVouches = require('./process-vouches')
 const withdrawFeesAndRewards = require('./withdraw-fees-and-rewards')
+const challengeProfile = require('./challenge-profile')
 
 module.exports = async (web3, batchedSend) => {
   // Instantiate the Proof Of Humanity contract and the graph client.
